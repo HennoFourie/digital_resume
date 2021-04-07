@@ -100,6 +100,9 @@ a:hover {
     animation-play-state: running;
 }
 
+#socialmedia:hover {
+    transform: scale(1.2);
+}
 
 footer{
     background-color: #457B9D;
