@@ -1,7 +1,7 @@
 html,
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F1FAEE;
+    /* background-color: #E0FBFC; */
     scroll-behavior: smooth;
 }
 
@@ -10,21 +10,27 @@ p {
 }
 
 .modal-header {
-    background-color: #457B9D;
+    background-color: #3D5A80;
     color: white;
     font-family: 'Roboto', sans-serif; 
 }
 
 hgroup {
     background-image: url("../images/header_background.jpg");
-    background-color: #457B9D;
+    background-color: #3D5A80;
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif; 
 }
 
+h3 {
+    color: #293241;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+
 #sidebar {
-    background-color: #A8DADC;
+    background-color: #98C1D9;
 }
 
 .profile_image {
@@ -35,7 +41,7 @@ hgroup {
     padding: 5%;
 }
 
-a:hover {
+.nav-item:hover {
     background-color: gray;
     border-radius: 5%;
 }
@@ -43,7 +49,7 @@ a:hover {
 .list-unstyled li:first-child {
     font-weight: 600;
     margin-bottom: 1%;
-    color: #1D3557;
+    color: #293241;
 }
 
 @keyframes ringing {
@@ -104,16 +110,21 @@ a:hover {
     transform: scale(1.2);
 }
 
-footer{
-    background-color: #457B9D;
+footer {
+    background-color: #3D5A80;
     color: white;
     padding: 5px;
     text-align: center;
 }
 
+#contact-me {
+    margin-top: 1%;
+    color: white;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    h3 {margin-top: 3%;}
+    h3 {margin-top: 4%;}
     .list-unstyled {margin-left:5%}
 }
 
