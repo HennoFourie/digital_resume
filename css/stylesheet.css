@@ -46,10 +46,14 @@ h3 {
     border-radius: 5%;
 }
 
-.list-unstyled li:first-child {
+.list-unstyled dt {
     font-weight: 600;
     margin-bottom: 1%;
     color: #293241;
+}
+
+ul {
+    list-style: initial;
 }
 
 @keyframes ringing {
@@ -148,8 +152,8 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .profile_image {max-width: 300px;}
-    .profile_image {max-height: auto;}
-    .profile_image {display: block; margin: 0 auto;}
+    .profile_image {width: 80%;}
+    .profile_image {margin-left: 10%;}
+    .profile_image {margin-right: 10%;}
 
 }
